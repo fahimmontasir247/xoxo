@@ -38,12 +38,14 @@ class _MyHomePageState extends State<MyHomePage> {
           backgroundColor: Colors.blue,
           actions: const <Widget>[Icon(Icons.search)],
         ),
-        body: ElevatedButton(
-          child: const Text('Click Here'),
-          onPressed: () {
-            print('hey_i_am_fahim');
-            
-          },
-        ));
+        body: Center(
+          child: Container(
+            height: 200,
+            width: 200,
+          child: Image.asset('images/fff.jpg')
+          ),
+        )
+    );
   }
 }
+
